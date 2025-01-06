@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'GmarketSansMedium';
+  }
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    padding-top: 40px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    border: 3px solid black;
+    border-radius: 30px;
+    height: 540px;
+    width: 420px;
+    background-color: #FFCC00;
+    
+}
+
+.display{
+    margin: 20px 20px 28px 20px;
+    width: 380px;
+    height: 90px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    background: #F5F5F5;
+}
+
+.button-container{
+    height: 372px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+
+    
+    display: grid;
+    grid-template-rows: 52px repeat(4, 80px);
+    grid-template-columns: repeat(5, 80px);
+  
+}
+
+.plus{
+    grid-row: 4 / 6;
+    grid-column: 4 / 5;
+    font-size: 28px;
+    background-color: #A4FCCA;
+}
+
+button{
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    
+    
+}
+
+button:hover{
+    background-color: #9CFF7B;
+    font-weight: bold;
+}
+
+
+.small{
+
+    background-color: #009540;
+    color: #F5F5F5;
+
+}
+
+.big-left{
+    font-size: 28px;
+    background-color: #F5F5F5;
+    
+
+}
+
+.big-right{
+    font-size: 28px;
+    background-color: #A4FCCA;
+    
+}
