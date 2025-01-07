@@ -41,7 +41,7 @@ main{
 }
 
 .display{
-    margin: 20px 20px 28px 20px;
+    margin: 20px 18px 28px 18px;
     width: 380px;
     height: 90px;
     border-radius: 10px;
@@ -67,8 +67,6 @@ main{
 .plus{
     grid-row: 4 / 6;
     grid-column: 4 / 5;
-    font-size: 28px;
-    background-color: #A4FCCA;
 }
 
 button{
